@@ -1,4 +1,5 @@
 body{
+	display: flex;
 	font:"Raleway",sans-serif;
 	color: rgba(0,0,0,0.5);
 	text-align: center;
@@ -21,4 +22,10 @@ h3{
 	color: rgba(0,0,0,.5);
 	text-transform: none;
 	letter-spacing: 0.1;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    letter-spacing: .2em;
+    width: 100%;
+  }
 }
